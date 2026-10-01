@@ -1,101 +1,25 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+:root{
+
+    --primary:#052C65;
+    --secondary:#2DD4BF;
+
+    --accent:#FDBA2D;
+
+    --text:#FFFFFF;
+
+    --card:rgba(255,255,255,0.08);
+
+    --card-border:rgba(255,255,255,0.15);
+
+}
+body {
+    margin: 0;
+    background: #4F46E5;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
-body{
-    font-family:'Poppins',sans-serif;
-}
-
-.hero{
-    min-height:100vh;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    background:linear-gradient(
-        135deg,
-        #03045E,
-        #7209B7,
-        #B5179E
-    );
-
-    padding:20px;
-}
-
-.glass-card{
-    width:100%;
-    max-width:500px;
-
-    padding:50px;
-
-    text-align:center;
-
-    border-radius:30px;
-
-    background:rgba(255,255,255,.12);
-
-    backdrop-filter:blur(15px);
-
-    border:1px solid rgba(255,255,255,.15);
-
-    box-shadow:0 20px 50px rgba(0,0,0,.2);
-}
-
-.logo{
-    width:120px;
-    margin-bottom:20px;
-}
-
-h1{
-    color:white;
-    font-size:48px;
-}
-
-h2{
-    color:#2DD4BF;
-    margin-top:10px;
-}
-
-p{
-    color:white;
-    margin-top:20px;
-    line-height:1.8;
-}
-
-.buttons{
-    margin-top:30px;
-
-    display:flex;
-    justify-content:center;
-    gap:15px;
-
-    flex-wrap:wrap;
-}
-
-.btn{
-    text-decoration:none;
-
-    padding:14px 28px;
-
-    border-radius:15px;
-
-    font-weight:600;
-}
-
-.primary{
-    background:#2DD4BF;
-    color:white;
-}
-
-.secondary{
-    border:2px solid white;
-    color:white;
-}
-
-.secondary:hover{
-    background:white;
-    color:#03045E;
+.container {
+    text-align: center;
+    margin-top: 100px;
 }
