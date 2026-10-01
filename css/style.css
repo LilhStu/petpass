@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(
+    135deg,
+    #03045e,
+    #7209b7,
+    #b5179e
+    );
+
+    font-family:Arial,sans-serif;
+}
+
+.container{
+
+    text-align:center;
+
+    color:white;
+}
+
+.logo{
+
+    width:120px;
+    border-radius:50%;
+}
+
+button{
+
+    margin-top:20px;
+
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:15px;
+
+    cursor:pointer;
+
+    background:#2DD4BF;
+
+    color:white;
+
+    font-size:18px;
+}
