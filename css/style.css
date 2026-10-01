@@ -1,118 +1,101 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
+body{
+    font-family:'Poppins',sans-serif;
 }
 
-.hero {
-    min-height: 100vh;
+.hero{
+    min-height:100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
-    padding: 20px;
-
-    background: linear-gradient(
+    background:linear-gradient(
         135deg,
         #03045E,
         #7209B7,
         #B5179E
     );
+
+    padding:20px;
 }
 
-.glass-card {
-    width: 100%;
-    max-width: 500px;
+.glass-card{
+    width:100%;
+    max-width:500px;
 
-    text-align: center;
+    padding:50px;
 
-    padding: 50px;
+    text-align:center;
 
-    border-radius: 30px;
+    border-radius:30px;
 
-    background: rgba(255,255,255,0.12);
+    background:rgba(255,255,255,.12);
 
-    backdrop-filter: blur(20px);
+    backdrop-filter:blur(15px);
 
-    border: 1px solid rgba(255,255,255,0.2);
+    border:1px solid rgba(255,255,255,.15);
 
-    box-shadow: 0 20px 50px rgba(0,0,0,.25);
+    box-shadow:0 20px 50px rgba(0,0,0,.2);
 }
 
-.logo {
-    width: 120px;
-    margin-bottom: 20px;
+.logo{
+    width:120px;
+    margin-bottom:20px;
 }
 
-h1 {
-    color: white;
-    font-size: 48px;
-    margin-bottom: 10px;
+h1{
+    color:white;
+    font-size:48px;
 }
 
-h2 {
-    color: #2DD4BF;
-    font-size: 22px;
-    margin-bottom: 20px;
+h2{
+    color:#2DD4BF;
+    margin-top:10px;
 }
 
-p {
-    color: white;
-    line-height: 1.8;
-    margin-bottom: 30px;
+p{
+    color:white;
+    margin-top:20px;
+    line-height:1.8;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
+.buttons{
+    margin-top:30px;
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+
+    flex-wrap:wrap;
 }
 
-.btn {
-    text-decoration: none;
-    padding: 14px 28px;
-    border-radius: 15px;
-    font-weight: 600;
-    transition: .3s;
+.btn{
+    text-decoration:none;
+
+    padding:14px 28px;
+
+    border-radius:15px;
+
+    font-weight:600;
 }
 
-.primary {
-    background: #2DD4BF;
-    color: white;
+.primary{
+    background:#2DD4BF;
+    color:white;
 }
 
-.primary:hover {
-    background: #22c0af;
+.secondary{
+    border:2px solid white;
+    color:white;
 }
 
-.secondary {
-    border: 2px solid white;
-    color: white;
-}
-
-.secondary:hover {
-    background: white;
-    color: #03045E;
-}
-
-@media (max-width: 600px) {
-
-    .glass-card {
-        padding: 35px;
-    }
-
-    h1 {
-        font-size: 36px;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
+.secondary:hover{
+    background:white;
+    color:#03045E;
 }
